@@ -1,0 +1,97 @@
+.color {
+    color: red !important;
+}
+
+.typo {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.figure1 {
+    display: flex;
+    gap: 20px;
+}
+
+.bi {
+    width: 40%;
+    background-color: #D60270;
+}
+
+.people {
+    width: 25%;
+    background-color: #9B4F96;
+}
+
+.rock {
+    width: 40%;
+    background-color: #0038A8;
+}
+
+.John1 {
+    font-family: cursive;
+}
+
+.John2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.John3 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.John5 {
+    font-family: Brush Script MT;
+}
+
+.John6 {
+    font-family: Lucida Handwriting;
+}
+
+.haha {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.c1 {
+    color: red;
+}
+
+.t1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hehe {
+    color: purple;
+    text-align: center;
+}
+
+.uh {
+    text-align: center;
+}
+
+.sigh {
+    text-align: center;
+}
+
+.again {
+    text-align: center;
+}
+
+.list1 {
+    list-style: inside;
+    font-size: large;
+    margin-bottom: 30px;
+}
+
+.list2 {
+    list-style: inside;
+    font-size: large;
+    margin-bottom: 30px;
+}
+
+.exit {
+    font-size: larger;
+    text-align: center;
+}

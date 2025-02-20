@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Khondria
+    </title>
+    <link rel="stylesheet" href="lesson1.css">
+    <audio id="buttonSound" src="click.mp3"></audio>
+    <script src="sound.js"></script>
+
+</head>
+<body>
+    <header>
+       
+        <div class="logo">
+        <img src="LOGO.png" alt="Logo">
+        
+    </div> 
+
+       <div class="khondria"><h1>Khondria</h1></div> 
+
+       <nav>
+        <ul class="nav-links">  
+            <li><a href="home4.html">Home</a></li>
+            <li><a href="about4.html">About</a></li>
+            <li><a href="contact4.html">Progress</a></li>          
+        </ul>
+
+    </nav>
+
+    <a href="learn_4.html"><button class="LEARN2">LEARN</button></a>
+
+
+    </header>
+    <h1>Lesson 1</h1>
+
+    <h2>CSS Flexbox</h2>
+    <p>Flexbox is short for <b>Flexible Box</b> module, wherein it arranges items in rows and columns without using float or positioning. All you need to do is to wrap the div properties inside a class container then targetting it in your CSS and set display to "flex".</p>
+    <ul>
+        <li><b>Flex Direction</b> - Row & Column Layouts </li>
+        <li><b>Flex Lay-out</b> - Align, Justify and Wrap </li>
+        <li><b>Flex Sizing</b> - Shrinking and Growing </li>
+    </ul>
+
+   <div class="iloveflexbox">
+    <div class="flex-items">Is</div>
+    <div class="flex-items">that</div>
+    <div class="flex-items">hyperpigmentation?!</div>
+   </div>
+
+    <h2>Table Element</h2>
+    <p>Using the plain Table elements with barely any CSS doesn't fit with the current modern expectations people will have when creating websites, observe the example below;</p>
+
+   <table>
+    <tbody>
+        <tr class="row1">
+            <td class="col1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea explicabo iste neque veritatis reiciendis, repudiandae modi ab labore. Earum, adipisci repellendus! Placeat magni quos assumenda cupiditate, ratione quae eveniet quam.</td>
+            <td class="col2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae architecto, quas id vero quos error debitis, a mollitia accusantium ipsa eius aspernatur nulla provident vitae consequuntur impedit cupiditate nesciunt velit!</td>
+            <td class="col3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sed ipsa aliquid fuga repudiandae, est dolorum laboriosam. Velit impedit atque accusamus odio, cupiditate optio fugiat laboriosam tenetur, obcaecati eos voluptates.</td>
+        </tr>
+    </tbody>
+   </table>
+
+   <p>Nowadays the standard is quite different, that being said we have plenty of tools now to help with designing!</p>
+
+   <h2>Display Element</h2>
+   <p>One thing that you have to get used to when learning CSS is how much it actually takes to put all the elements together and make them work <i>together</i></p>
+   
+        <div class="one"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda fugit animi perspiciatis, nihil ratione veritatis similique repudiandae magnam eos veniam omnis numquam fugiat, cum inventore error temporibus provident nisi ea!</p></div>
+        <div class="two"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda fugit animi perspiciatis, nihil ratione veritatis similique repudiandae magnam eos veniam omnis numquam fugiat, cum inventore error temporibus provident nisi ea!</p></div>
+        <div class="three"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda fugit animi perspiciatis, nihil ratione veritatis similique repudiandae magnam eos veniam omnis numquam fugiat, cum inventore error temporibus provident nisi ea!</p></div>
+
+    <h2>Flex Direction</h2>
+    <p>All of the items that are contained gets put onto the row. The reason for this is because there is a property in Flexbox called the <b>flex-direction</b>. By default, the property is set to <b>row</b>.</p>
+
+    <div id="main">
+        <div style="background-color:coral;">A</div>
+        <div style="background-color:lightblue;">B</div>
+        <div style="background-color:khaki;">C</div>
+        <div style="background-color:pink;">D</div>
+        <div style="background-color:lightgrey;">E</div>
+        <div style="background-color:lightgreen;">F</div>
+      </div>
+
+    <p>Now, the main axis is now presented from top to bottom. Let's talk about the <b>flex-basis</b> property now. Imagine that this property is like setting the height, specifying the initial length.</p>
+
+    <div id="second">
+        <div style="background-color:coral;">A</div>
+        <div style="background-color:lightblue;">B</div>
+        <div style="background-color:khaki;">C</div>
+        <div style="background-color:pink;">D</div>
+        <div style="background-color:lightgrey;">E</div>
+        <div style="background-color:lightgreen;">F</div>
+      </div>
+
+      <h2>Flex Sizing</h2>
+      <h3>1. flex-grow</h3>
+    <p>We look at two properties that affect the size and flexibility of flex items along the main axis: <b>flex-grow</b> and <b>flex-shrink</b>. <b>Flex-grow</b> shows how each flex item are displayed as growing relative to each other. As shown, the second flex item is shown as having the <b>flex-grow</b> property, while the others are displayed as normal.</p>
+
+    <div id="third">
+        <div style="background-color:coral;"></div>
+        <div style="background-color:lightblue;"></div>
+        <div style="background-color:khaki;"></div>
+        <div style="background-color:pink;"></div>
+        <div styles="background-color:lightgrey;"></div>
+      </div>
+    
+      <h3>2. flex-shrink</h3>
+      <p>The <b>flex-shrink</b> defines how flex items should shrink compared to other items. The second flex item is shown as having the <b>flex-shrink</b> property, while the others are displayed as normal.</p>
+
+      <div id="fourth">
+        <div style="background-color:coral;"></div>
+        <div style="background-color:lightblue;"></div>
+        <div style="background-color:khaki;"></div>
+        <div style="background-color:pink;"></div>
+        <div style="background-color:lightgrey;"></div>
+      </div>
+
+      
+    <h2>The CSS Flexbox Properties</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Properties</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>display</td>
+            <td>Specifies the display behavior (the type of rendering box) of an element. These are "none, inline, block, and inline-block".</td>
+        </tr>
+        <tr>
+            <td>flex-basis</td>
+            <td>Specifies the initial length of a flex item.</td>
+        </tr>
+        <tr>
+            <td>flex-direction</td>
+            <td>Specifies the direction of the flex items.</td>
+        </tr>
+        <tr>
+            <td>flex-grow</td>
+            <td>Specifies how much a flex item and the positive free space will grow.</td>
+        </tr>
+        <tr>
+            <td>flex-shrink</td>
+            <td>Specifies how much a flex item will shrink. It will show how much negative free space can be removed.</td>
+        </tr>
+        <tr>
+            <td>gap</td>
+            <td>A shorthand property for the row-gap and the column-gap properties.</td>
+        </tr>
+        <tr>
+            <td>grid</td>
+            <td>A shorthand property.</td>
+        </tr>
+        <tr>
+            <td>justify-content</td>
+            <td>Horizontally aligns the entire grid within the container.</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2>The Flex-Direction Values</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Values</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>row</td>
+            <td>Default value. Items are displayed horizontally.</td>
+        </tr>
+        <tr>
+            <td>row-reverse</td>
+            <td>Items are displayed in reverse as row.</td>
+        </tr>
+        <tr>
+            <td>column</td>
+            <td>Items are displayed vertically.</td>
+        </tr>
+        <tr>
+            <td>column-reverse</td>
+            <td>Items are displayed in revserse as column.</td>
+        </tr>
+    </tbody>
+</table>
+<center><div class="video-container">
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/GFeDQttclvY" frameborder="0" allowfullscreen></iframe>
+</div></center>
+
+ <center><p style="font-size: 20px;">Thank you for staying and enjoying the lesson! I hope you've learned something. Please proceed to the assessment when you're ready.</p></center>
+        
+<center><a href="4ASSESMENT_LESSON1.html"><button class="READY">READY?</button></a></center>
+
+   
+       
+
+
+        
+    
+<footer>
+       
+    <p class="credits">&copy; 2025 Khondria. All rights reserved.</p>
+    <div class="social-media">
+        <a href="https://www.facebook.com/franchesca.mari.argabioso" target="_blank">
+            <button>
+                <img src="facebook.jpg" alt="Facebook">
+            </button>
+        </a>
+        <button>
+            <img src="x.png" alt="X">
+        </button>
+        <button>
+            <img src="instagram.png" alt="Instagram">
+        </button>
+    </div>
+    
+
+    
+</footer>
+
+
+
+</body>
+</html>

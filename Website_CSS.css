@@ -1,0 +1,119 @@
+/*example one*/
+.col1 {
+    width: 25%;
+    background-color: #D60270;
+}
+
+.col2 {
+    width: 25%;
+    background-color: #9B4F96;    
+}
+
+.col3 {
+    width: 40%;
+    background-color: #0038A8;
+}
+
+/*example two*/
+div {
+    background: black;
+    color: white;
+    display: inline-block;
+}
+
+.one {
+    width: 25%;
+}
+
+.two {
+    width: 20%;
+}
+
+.three {
+    width: 40%;
+}
+
+/*example three*/
+.iloveflexbox {
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.flex-items {
+    background-color: hotpink;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/*example four*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+thead {
+    background-color: gray;
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/*example five*/
+.flexbox {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+.flex-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.container-grid {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.grid-item, .flex-item {
+    background-color: hotpink;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.flex-item {
+    background-color: purple;
+    color: white;
+}
