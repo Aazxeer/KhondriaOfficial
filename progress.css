@@ -195,6 +195,7 @@ nav ul li a:hover {
     justify-content: center;
     text-align: center;
     position: relative;
+    margin: 0;
     
     
 }
@@ -556,9 +557,89 @@ footer {
     font-size: 30px;
     color: white;
     font-size: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
-.about-container p {
+.about-container1 {
+    max-width: 1000px;
+    margin: 100px auto;
+    width: 250px;
+    background: #3c9c3c;
+    padding: 100px ;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: absolute;
+    left: 36%;
+    backdrop-filter: blur(10px);
+    font-size: 30px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.about-container1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px 4px rgba(0, 255, 0, 0.6), 
+                0 0 40px 10px rgba(0, 255, 0, 0.4);
+}
+
+.green3 {
+    max-width: 1000px;
+    margin: 100px auto;
+    width: 250px;
+    background: green;
+    padding: 100px ;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: absolute;
+    left: 36%;
+    backdrop-filter: blur(10px);
+    font-size: 30px;
+    color: white;
+    font-size: 25px;
+    top: 150px;
+    height: 95px;
+    transition: all 0.3s ease;
+}
+
+.green2 {
+    max-width: 1000px;
+    margin: 100px auto;
+    width: 250px;
+    background: green;
+    padding: 100px ;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: absolute;
+    left: 36%;
+    backdrop-filter: blur(10px);
+    font-size: 30px;
+    color: white;
+    font-size: 25px;
+    top: 249px;
+    transition: all 0.3s ease;
+    
+}
+
+
+
+.hover-wrapper:hover .green2,
+.hover-wrapper:hover .about-container,
+.hover-wrapper:hover .green3 {
+    transform: scale(1.05); 
+}
+
+
+
+
+.about-container p,
+.about-container1 p
+ {
 
     font-size: 50px;
 }
@@ -573,6 +654,29 @@ footer {
     color: #28a745;
     margin-top: 20px;
 }
+
+.restart {
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 46%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.restart:hover {
+    transform: scale(1.05);
+    color: #ffffff; 
+    text-shadow: 
+      0 0 1px rgb(255, 255, 255), 
+      0 0 1px rgb(255, 255, 255), 
+      0 0 10px rgb(249, 249, 249), 
+      0 0 1px rgb(252, 255, 252);
+    transition: all 0.3s ease;
+  }
+
+
+
 
 
 
